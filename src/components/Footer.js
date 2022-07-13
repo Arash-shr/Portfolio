@@ -11,7 +11,7 @@ function Footer() {
     <div className="footer">
         <div className="socialMedia">
         <a href="https://www.linkedin.com/in/arash-shirsavar-a2bba920a/"><LinkedInIcon/></a>
-       <a href="https://www.instagram.com/arash.sr9/"> <InstagramIcon id="insta"/></a>
+        <a href="https://www.instagram.com/arash.sr9/"> <InstagramIcon id="insta"/></a>
         <FacebookIcon/>
         <TwitterIcon/>
         </div>
