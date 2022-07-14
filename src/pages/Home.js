@@ -11,7 +11,7 @@ function Home() {
     <div className="home">
 
      <div className="about">
-      <h2>Hi, My Name is Arash, but there is a problem here</h2>
+      <h2>Hi, My Name is Arash</h2>
       <div className="prompt" > <p> A front-end developer with a passion of coding</p>
       <a href="https://www.linkedin.com/in/arash-shirsavar-a2bba920a/"><LinkedInIcon/></a>
       <a href="mailto:arash.shr92@gmail.com"><EmailIcon /></a> 
