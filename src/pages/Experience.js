@@ -8,7 +8,7 @@ import "../styles/Experience.css";
 
 function Experience() {
   return (
-    <div className="experience">
+     <div className="experience">
      <div class='light x1'></div>
      <div class='light x2'></div>
      <div class='light x3'></div>

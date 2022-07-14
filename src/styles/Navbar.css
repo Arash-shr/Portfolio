@@ -4,7 +4,6 @@
   background-image: linear-gradient(to right, #141e30, #243b55);}
 
 .navbar:hover {
-
   opacity: 0.95;
 }
 
@@ -12,7 +11,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   color: white;
 }
@@ -21,16 +20,17 @@
   color: rgb(234, 228, 228);
   text-decoration: none;
   margin: 20px;
-  font-size: 28px;
+  font-size: 40px;
   font-family: 'Concert One', cursive;
 }
 
 .navbar a:hover {
-  -webkit-transform: scale(1.25);
+  /* -webkit-transform: scale(1.25);
      -moz-transform: scale(1.25);
       -ms-transform: scale(1.25);
-       -o-transform: scale(1.25);
+       -o-transform: scale(1.25); */
           transform: scale(1.25);  
+          
 }
 
 .toggleButton {
