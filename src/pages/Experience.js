@@ -4,6 +4,8 @@ import 'react-vertical-timeline-component/style.min.css';
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from '@material-ui/icons/Work';
 import "../styles/Experience.css";
+import workStudy  from '../assets/work-study-data';
+
 
 
 function Experience() {
@@ -19,7 +21,18 @@ function Experience() {
      <div class='light x8'></div>
      <div class='light x9'></div>
     <VerticalTimeline lineColor="#3e497a">
-      <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background:"#3e497a", color:"#fff"}} icon={<SchoolIcon/>}>
+
+    {workStudy.map((experience)=>{
+      return <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background:"#3e497a", color:"#fff"}} icon={experience.type === "study" ? <SchoolIcon/> : <WorkIcon/> }>
+        <h3 className="vertical-timeline-element-title">{experience.title}</h3>
+        <p>{experience.place}</p>
+        <p>{experience.date}</p>
+
+      </VerticalTimelineElement>
+    })}
+
+
+      {/* <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background:"#3e497a", color:"#fff"}} icon={<SchoolIcon/>}>
         <h3 className="vertical-timeline-element-title">Aryan Institute of Scicence and Technology</h3>
         <p>Bachelors Information Technology</p>
         <p>2016-2019</p>
@@ -39,7 +52,7 @@ function Experience() {
         <h3 className="vertical-timeline-element-title">Sheffield Hallam University</h3>
         <p>MSc Information Technology Management</p>
         <p>2021-2022</p>
-      </VerticalTimelineElement>
+      </VerticalTimelineElement> */}
       
     </VerticalTimeline>
     
