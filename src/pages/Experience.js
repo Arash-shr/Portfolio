@@ -31,29 +31,6 @@ function Experience() {
       </VerticalTimelineElement>
     })}
 
-
-      {/* <VerticalTimelineElement className="vertical-timeline-element--education" iconStyle={{ background:"#3e497a", color:"#fff"}} icon={<SchoolIcon/>}>
-        <h3 className="vertical-timeline-element-title">Aryan Institute of Scicence and Technology</h3>
-        <p>Bachelors Information Technology</p>
-        <p>2016-2019</p>
-
-      </VerticalTimelineElement>
-      <VerticalTimelineElement className="vertical-timeline-element--education"  iconStyle={{ background:"#3e497a", color:"#fff"}} icon={<WorkIcon/>}>
-        <h3 className="vertical-timeline-element-title">Junior Business Analyst</h3>
-        <p>Kalleh Dairy</p>
-        <p>2016-2016</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement className="vertical-timeline-element--education"  iconStyle={{ background:"#3e497a", color:"#fff"}} icon={<WorkIcon/>}>
-        <h3 className="vertical-timeline-element-title">Junior Front End Developer</h3>
-        <p>HKA Smart Home</p>
-        <p>2017-2018</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement className="vertical-timeline-element--education"  iconStyle={{ background:"#3e497a", color:"#fff"}} icon={<SchoolIcon/>}>
-        <h3 className="vertical-timeline-element-title">Sheffield Hallam University</h3>
-        <p>MSc Information Technology Management</p>
-        <p>2021-2022</p>
-      </VerticalTimelineElement> */}
-      
     </VerticalTimeline>
     
 

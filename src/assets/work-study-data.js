@@ -9,13 +9,13 @@ const workStudy = [
 {    key : 2,
     title : "Junior Business Analyst",
     place : "Kalleh Dairy",
-    date : "2016-2016",
+    date : "2019-2019",
     type : "work"
 },
 {    key : 3,
     title : "Junior Front End Developer",
     place : "HKA Smart Home",
-    date : "2017-2018",
+    date : "2020-2022",
     type : "work"
 },
 {   key : 4,

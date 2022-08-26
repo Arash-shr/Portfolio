@@ -1,7 +1,11 @@
+
+
 .navbar {
   width: 100%;
   height: 100px;
-  background-image: linear-gradient(to right, #141e30, #243b55);}
+  /* background-image: linear-gradient(to right, #141e30, #243b55); */
+  background-image : var(--background-color)
+}
 
 .navbar:hover {
   opacity: 0.95;
