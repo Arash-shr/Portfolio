@@ -1,7 +1,8 @@
 import React from 'react';
 import "../styles/Home.css"
 import EmailIcon from '@material-ui/icons/Email';
-import GithubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+
 
 
 
@@ -11,9 +12,9 @@ function Home() {
 
      <div className="about">
       <h2>Hi, My Name is Arash</h2>
-      <div className="prompt" > <p> A front-end developer with a passion of coding</p>
-      <a className="reachMe" href="https://github.com/Arash-shr"><GithubIcon /></a> 
-      <a className="reachMe" href="mailto:arash.shr92@gmail.com"><EmailIcon /></a> 
+      <div className="prompt" > <p> A front-end developer with a passion of coding.</p>
+      <a className="reachMe" href="https://www.linkedin.com/in/arash-shirsavar-a2bba920a/" target="_blank" rel="noopener noreferrer"><LinkedInIcon/></a>
+      <a className="reachMe"  href="mailto:arash.shr92@gmail.com" target="_blank" rel="noopener noreferrer"><EmailIcon id="mail"/></a> 
       </div>
     </div>
     {/* <div className="skills">
@@ -35,7 +36,7 @@ function Home() {
       </ol>
 
       </div> */}
-      <div class='light x1'></div>
+     <div class='light x1'></div>
      <div class='light x2'></div>
      <div class='light x3'></div>
      <div class='light x4'></div>
